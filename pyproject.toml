@@ -5,7 +5,7 @@ description = "agentic ai sandbox 2"
 readme = "README.md"
 requires-python = ">=3.13.2"
 dependencies = [
-    "agno>=1.2.6",
+    "agno>=1.2.7",
     "dotenv>=0.9.9",
     "duckduckgo-search>=2025.4.1",
     "google-genai>=1.9.0",
