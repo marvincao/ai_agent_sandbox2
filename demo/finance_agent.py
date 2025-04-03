@@ -35,8 +35,8 @@ with open(tasks_config_file, 'r', encoding='utf-8') as file:
     
 today = datetime.now().strftime("%Y-%m-%d")
 timestamp = datetime.now().strftime("%Y%m%d%H%M")
-# MODEL = "gemini-2.0-flash-exp"
-MODEL = getenv("GEMINI_LLM_MODEL")
+MODEL = "gemini-2.0-flash"
+# MODEL = getenv("GEMINI_LLM_MODEL")
 API_KEY = getenv("GEMINI_API_KEY")
 
 # Ensure the output directory exists
