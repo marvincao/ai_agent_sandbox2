@@ -26,7 +26,8 @@ output_file = f"{output_dir}/{ticker}.{timestamp}.md"
 
 agent = Agent(
     model=Gemini(
-        id=getenv("GEMINI_LLM_MODEL"),
+        # id=getenv("GEMINI_LLM_MODEL"),
+        id="gemini-2.0-flash-exp",
         api_key=getenv("GEMINI_API_KEY"),
     ),
     tools=[

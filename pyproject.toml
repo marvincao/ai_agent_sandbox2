@@ -9,5 +9,7 @@ dependencies = [
     "dotenv>=0.9.9",
     "duckduckgo-search>=2025.4.1",
     "google-genai>=1.9.0",
+    "lancedb>=0.21.2",
+    "pypdf>=5.4.0",
     "yfinance>=0.2.55",
 ]

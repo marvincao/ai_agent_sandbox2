@@ -6,16 +6,42 @@ This is a sample project demonstrating how to use the [Agno](https://docs.agno.c
 
 ## Prerequisites
 
-Ensure Python is installed on your system.  
-Example paths (adjust based on your setup):
+- Ensure Python is installed on your system.  
+  Example paths (adjust based on your setup):
 
-```sh
-where python
-C:\Python312\python.exe
+  ```sh
+  # location of python
+  where python
+  C:\Python312\python.exe
 
-where pip
-C:\Python312\Scripts\pip.exe
-```
+  # check python version
+  python -V
+  Python 3.12.8
+
+  # location of pip
+  where pip
+  C:\Python312\Scripts\pip.exe
+
+  # check pip version
+  pip --version
+  pip 25.0.1
+  ```
+
+- Google Gemini API Key   
+  To enable integration with the Google Gemini API, follow these steps:
+
+  1. Visit [Google AI Studio](https://aistudio.google.com/apikey).  
+  2. Create a new API key.  
+  3. Copy the generated API key.  
+  4. Update the `.env` file with your API key.
+
+  <br>
+  Example `.env` Configuration:
+
+  ```sh
+  # Copy .env_sample to .env and update the following:
+  GEMINI_API_KEY=paste_your_api_key_here
+  ```
 
 ---
 
@@ -52,31 +78,20 @@ uv lock --upgrade --native-tls
 
 ---
 
-## Configure Google Gemini API Key
-
-To enable integration with the Google Gemini API, follow these steps:
-
-1. Visit [Google AI Studio](https://aistudio.google.com/apikey).  
-2. Create a new API key.  
-3. Copy the generated API key.  
-4. Update the `.env` file with your API key.
-
-### Example `.env` Configuration:
-```sh
-# Copy .env_sample to .env and update the following:
-GEMINI_API_KEY=paste_your_api_key_here
-```
-
 ## Run the applications
 
 ```sh
+# change to demo folder
 cd demo
+
+# run the agents
 uv run ticker_agent.py
 uv run finance_agent.py
 ...
 ```
 
+---
+
 ## Output
 
 Outputs are saved in the `output` directory.
-
