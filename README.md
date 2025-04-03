@@ -27,7 +27,7 @@ This is a sample project demonstrating how to use the [Agno](https://docs.agno.c
   pip 25.0.1
   ```
 
-- Google Gemini API Key   
+- Google Gemini API Key
   To enable integration with the Google Gemini API, follow these steps:
 
   1. Visit [Google AI Studio](https://aistudio.google.com/apikey).  
@@ -35,7 +35,8 @@ This is a sample project demonstrating how to use the [Agno](https://docs.agno.c
   3. Copy the generated API key.  
   4. Update the `.env` file with your API key.
 
-  <br>
+  </br>
+
   Example `.env` Configuration:
 
   ```sh
@@ -79,21 +80,6 @@ uv lock --upgrade --native-tls
 ```
 
 ---
-
-## Configure Google Gemini API Key
-
-To enable integration with the Google Gemini API, follow these steps:
-
-1. Visit [Google AI Studio](https://aistudio.google.com/apikey).  
-2. Create a new API key.  
-3. Copy the generated API key.  
-4. Update the `.env` file with your API key.
-
-### Example `.env` Configuration:
-```sh
-# Copy .env_sample to .env and update the following:
-GEMINI_API_KEY=paste_your_api_key_here
-```
 
 ## Run the applications
 
