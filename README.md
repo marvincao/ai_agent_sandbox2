@@ -16,7 +16,7 @@ This is a sample project demonstrating how to use the [Agno](https://docs.agno.c
 
   # check python version
   python -V
-  Python 3.12.8
+  Python 3.13.2
 
   # location of pip
   where pip
@@ -24,7 +24,7 @@ This is a sample project demonstrating how to use the [Agno](https://docs.agno.c
 
   # check pip version
   pip --version
-  pip 25.0.1
+  pip 25.1.1
   ```
 
 - Google Gemini API Key
@@ -56,7 +56,7 @@ pip install --upgrade uv
 
 # Verify uv installation and version
 uv --version
-uv 0.6.12 (e4e03833f 2025-04-02)
+uv 0.7.3 (3c413f74b 2025-05-07)
 ```
 
 ---

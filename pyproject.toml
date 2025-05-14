@@ -1,15 +1,15 @@
 [project]
 name = "ai-agent-sandbox2"
 version = "0.2.0"
-description = "agentic ai sandbox 2"
+description = "agentic ai sandbox"
 readme = "README.md"
 requires-python = ">=3.13.2"
 dependencies = [
-    "agno>=1.2.7",
+    "agno>=1.5.0",
     "dotenv>=0.9.9",
-    "duckduckgo-search>=2025.4.1",
-    "google-genai>=1.9.0",
-    "lancedb>=0.21.2",
-    "pypdf>=5.4.0",
-    "yfinance>=0.2.55",
+    "duckduckgo-search>=8.0.1",
+    "google-genai>=1.15.0",
+    "lancedb>=0.22.0",
+    "pypdf>=5.5.0",
+    "yfinance>=0.2.60",
 ]
